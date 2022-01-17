@@ -10,3 +10,14 @@ function newJoe() {
 
     return joe;
 }
+
+function newPolice() {
+    var police = {
+        cool: 100,
+        name: "Sting",
+        run: () => { console.log("Go sting go"); },
+        getSquashed: () => { console.log("Oh no"); }
+    };
+
+    return police;
+}
