@@ -1,3 +1,13 @@
 // This is a js port for the hit demo dynamite joe
 
-console.log("Go joe go");
+
+
+function newJoe() {
+    var joe = {
+        cool: 100,
+        name: "Joseph",
+        run: () => { console.log("Go joe go"); }
+    };
+
+    return joe;
+}
