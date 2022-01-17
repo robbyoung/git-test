@@ -3,7 +3,7 @@
 function newJoe() {
     var joe = {
         cool: 100,
-        name: "Joseph",
+        name: "Joe",
         run: () => { console.log("Go joe go"); },
         dynamite: () => { console.log("Throw joe throw"); }
     };
